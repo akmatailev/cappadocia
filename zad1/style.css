@@ -1,0 +1,254 @@
+@import "./font.css";
+* {
+  font-family: "Roboto Condensed";
+}
+body {
+  overflow-x: hidden;
+}
+.header {
+  background-image: url(../zad1/image/Rectangle\ 43.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+.menu__item {
+  margin-left: 20px;
+}
+.main {
+  text-align: center;
+}
+.main__title {
+  font-size: 150px;
+  margin-top: 200px;
+  font-family: "Balqis";
+}
+.main__subtitle {
+  margin-left: 300px;
+  font-size: 50px;
+  line-height: 100%;
+}
+.section1 {
+  padding: 50px;
+}
+.section1__title {
+  color: #e2ab3f;
+  font-size: 96px;
+  text-align: center;
+  font-family: "Balqis";
+  line-height: 100%;
+}
+.section1__subtitle {
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 150px;
+  padding: 30px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
+}
+
+.box1__img {
+  width: 700px;
+}
+.box2 p {
+  font-size: 18px;
+  padding: 20px;
+}
+.box2 h2 {
+  font-size: 24px;
+  line-height: 21px;
+  padding: 30px;
+}
+.section2 {
+  padding: 40px;
+}
+.block__left h1 {
+  color: #e2ab3f;
+  font-size: 96px;
+  font-family: "Balqis";
+}
+.block__left h3 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 300px;
+  padding-bottom: 40px;
+}
+.block__left h2 {
+  font-size: 28px;
+  line-height: 28px;
+}
+.block__left p {
+  font-size: 18px;
+  line-height: 28px;
+  padding: 20px;
+  width: 296px;
+}
+.block__left button {
+  border: 1px solid #e2ab3f;
+  padding: 10px 40px;
+  margin: 30px 40px;
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  gap: 70px;
+}
+.block__right img {
+  width: 750px;
+}
+
+.section3__title {
+  color: #e2ab3f;
+  font-size: 96px;
+  font-family: "Balqis";
+}
+.section3__subtitle {
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 150px;
+  padding-bottom: 40px;
+}
+.hotel {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 90px;
+}
+.hotel__right p {
+  font-size: 18px;
+  line-height: 21px;
+  padding: 20px;
+}
+.hotel__right img {
+  padding: 20px;
+}
+.section3 {
+  padding: 50px;
+}
+.section4__title {
+  color: #e2ab3f;
+  font-size: 96px;
+  font-family: "Balqis";
+}
+.section4__subtitle {
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 150px;
+  padding-bottom: 40px;
+}
+.price__left h2 {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 30px;
+}
+.price__left p {
+  font-size: 15px;
+  line-height: 21px;
+  padding: 15px;
+  width: 400px;
+}
+.price {
+  display: flex;
+  gap: 100px;
+  /* justify-content: space-evenly;  */
+}
+.section4 {
+  padding: 50px;
+}
+.space__left h1 {
+  color: #e2ab3f;
+  font-size: 96px;
+  font-family: "Balqis";
+}
+.space__left p {
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 230px;
+  padding-bottom: 40px;
+}
+.space__left h2 {
+  color: #e2ab3f;
+  font-size: 96px;
+  margin-left: 200px;
+  font-family: "Balqis";
+}
+.space__left h3 {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 40px;
+}
+ .space__right img{
+  width: 500px;
+ }
+.space__left input,
+button {
+  border: 1px solid #e2ab3f;
+  padding: 10px 100px;
+  margin: 10px 40px;
+}
+.space {
+  display: flex;
+  justify-content: space-around;
+}
+.section5 {
+  padding: 100px;
+}
+.footer {
+  background-image: url(../zad1/Rectangle\ 42.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 300px;
+}
+
+.image {
+  background-image: url(../zad1/kisspng-flight-hot-air-balloon-computer-icons-aerostat-5afe08ad4b2f92\ 2.svg);
+  background-repeat: no-repeat;
+  width: 356px;
+  height: 527px;
+}
+.image h1 {
+  color: #e2ab3f;
+  font-size: 76px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Balqis";
+}
+.image p {
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+}
+.image1 {
+  margin-left: 130px;
+  margin-top: 20px;
+}
+.image0 {
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  gap: 200px;
+}
+.image2 {     
+  font-size: 76px;
+  font-family: "Balqis";
+}
